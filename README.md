@@ -34,6 +34,16 @@ brew cask install \
 
 ```
 
+## SSH
+
+```
+ssh-keygen -t rsa -b 4096 -C "adam@admm.io"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+```
+
+You can then `pbcopy < ~/.ssh/id_rsa.pub` and add your new SSH key to [Github](https://github.com/settings/keys)
+
 ## Sublime
 
 First install [Sublime Package Manager](https://packagecontrol.io/installation) and then update _Package Control.sublime-settings_:
