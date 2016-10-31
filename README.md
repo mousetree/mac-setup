@@ -113,3 +113,11 @@ let g:jsx_ext_required = 0
 ```
 
 Then install the plugins: `vim +PluginInstall +qall`
+
+## Random
+
+Add some nice Quick Look plugins:
+
+```
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv
+```
