@@ -12,9 +12,6 @@ These are some of the things I install when I setup a Mac for the first time. It
 # zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# xcode select
-xcode-select --install
-
 # brew packages
 brew install wget curl git python ruby macvim vim
 
@@ -77,7 +74,7 @@ First install [Sublime Package Manager](https://packagecontrol.io/installation) 
 These are some global packages that I use frequently:
 
 ```
-npm install create-react-app nodemon babel-cli
+npm install -g create-react-app nodemon babel-cli
 ```
 
 ## Vim
